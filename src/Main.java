@@ -7,6 +7,15 @@ public class Main {
             System.out.println("i = " + i);
         }
 
+
         System.out.println("hi there");System.out.println("hi there");System.out.println("hi there");
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("*");
+            for (int j = 1; j <= i; j++) {
+                System.out.printf("A");
+            }
+        }
+
     }
 }
